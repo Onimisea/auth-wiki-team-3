@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-vw12@r0_+-=oqjsd@-)!w(vsi53@6*9$g1j0rd%#21dchena)8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['auth-wiki-team-3.herokuapp.com', '127.0.0.1']
 
 AUTH_USER_MODEL = "user_auth.OurUser"
 
